@@ -37,4 +37,4 @@ function initForm(  ) {
     Object.entries(parsedFilters).forEach(([name, value]) => {
         refs.form.elements[name].value = value
     })
-}
+} 
